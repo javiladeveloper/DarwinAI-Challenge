@@ -1,0 +1,29 @@
+{
+  "name": "darwinai-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connector_service.ts",
+  "scripts": {
+    "dev": "nodemon --env-file .env connector_service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiladeveloper/DarwinAI-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiladeveloper/DarwinAI-Challenge/issues"
+  },
+  "homepage": "https://github.com/javiladeveloper/DarwinAI-Challenge#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@types/node-telegram-bot-api": "^0.64.6"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "node-telegram-bot-api": "^0.65.1",
+    "nodemon": "^3.1.0"
+  }
+}
