@@ -1,6 +1,4 @@
-# DarwinAI-Challenge
-
-## Telegram Bot Connector Service
+# Telegram Bot Connector Service
 
 Este proyecto es un conector para un bot de Telegram, que reenvía los mensajes recibidos a un servicio de backend y devuelve las respuestas al usuario.
 
