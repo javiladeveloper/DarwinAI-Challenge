@@ -1,7 +1,7 @@
 // Importa el módulo node-telegram-bot-api para interactuar con la API de Telegram
-const TelegramBot = require("node-telegram-bot-api");
+import TelegramBot from "node-telegram-bot-api";
 // Importa el módulo axios para realizar solicitudes HTTP
-const axios = require("axios");
+import axios from "axios";
 
 // Obtiene el token del bot de Telegram y la URL del servicio backend de las variables de entorno
 const token = process.env.TELEGRAM_BOT_TOKEN || "";
