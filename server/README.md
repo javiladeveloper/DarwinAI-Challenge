@@ -14,6 +14,7 @@ Este proyecto es una API construida con Flask para un bot de seguimiento de gast
 
 - Create a virtual environment: python3 -m venv venv
 - Activate the virtual environment: source venv/bin/activate (Linux/Mac) or .\venv\Scripts\activate (Windows)
+- Si usas Terminal de VS Code ctrl+shift+p python: Select Interpretor (previamente debes tener instalado Python en vscode), vas a la ruta ./venv/Scipts/python
 
 ### Requisitos
 

@@ -1,6 +1,6 @@
-from dotenv import load_dotenv  # Para cargar variables de entorno desde .env
-from flask import jsonify, request  # Para manejar respuestas y solicitudes HTTP en Flask
-from langchain.llms import OpenAI  # Para utilizar LangChain con el modelo de lenguaje OpenAI
+from dotenv import load_dotenv  # type: ignore # Para cargar variables de entorno desde .env
+from flask import jsonify, request  # type: ignore # Para manejar respuestas y solicitudes HTTP en Flask
+from langchain_community.llms import OpenAI  # type: ignore # Para utilizar LangChain con el modelo de lenguaje OpenAI
 from .models import db, Expense, User  # Importa los modelos de la base de datos y SQLAlchemy
 from .utils import type_condition, isNumeric, condition_promp  # Funciones y constantes auxiliares
 
@@ -8,7 +8,7 @@ from .utils import type_condition, isNumeric, condition_promp  # Funciones y con
 load_dotenv()
 
 # Inicializa el modelo de lenguaje con un parámetro de temperatura específico
-llm = OpenAI(temperature=0.7)
+llm = OpenAI(temperature=0.2)
 
 # Función para configurar las rutas de la aplicación Flask
 def configure_routes(app):
